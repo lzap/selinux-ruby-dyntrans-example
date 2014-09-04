@@ -28,5 +28,6 @@ type test_exec_t;
 
 application_domain(test_t, test_exec_t)
 domtrans_pattern(unconfined_t, test_exec_t, test_t)
+application_type(test_subcommand_t)
 
 allow test_t test_subcommand_t:process dyntransition;
