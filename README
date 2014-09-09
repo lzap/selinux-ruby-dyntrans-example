@@ -1,5 +1,5 @@
 libselinux-ruby dynamic transition example
 
   make -f /usr/share/selinux/devel/Makefile load
-  chcon unconfined_u:object_r:test_exec_t:s0 test.sh
+  chcon unconfined_u:object_r:test_exec_t:s0 test.rb
   ./test.rb
